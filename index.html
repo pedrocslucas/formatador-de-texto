@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatador de Texto</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Formatador de Textos</h1>
+    </header>
+    <main>
+        <h2>Configurações:</h2>
+        <div id="config">
+            <label for="iformat">Formato: </label>
+            <select name="format" id="iformat">
+                <option value="capitalize">Capitalize</option>
+                <option value="uppercase">Maiúsculas</option>
+            </select>
+
+            <label for="itype">Tipo: </label>
+            <select name="type" id="itype">
+                <option value="times">Serif</option>
+                <option value="arial">Sans-serif</option>
+                <option value="courier">Monospace</option>
+                <option value="manuscrito">Handwriting</option>
+                <option value="display">Display</option>
+            </select>
+
+            <label for="isize">Tamanho: </label>
+            <input type="number" name="isize" id="isize" min="8" max="150" value="16">
+
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor">
+        </div>
+        <div id="botoes">
+
+        </div>
+        <div id="form">
+            <label for="itexto">Caixa de Texto: </label>
+            <textarea name="texto" id="itexto" cols="40" rows="10" placeholder="Digite ou cole seu texto aqui..."></textarea>
+        </div>
+    </main>
+    <footer>
+        <p>Site criado por <span>Pedro Lucas</span> estudante de Sistemas de Informação.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>

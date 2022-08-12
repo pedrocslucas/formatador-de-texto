@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --corPadrao: #F0D080;
+    --corFraca: #F2E7C9;
+    --corMedia: #BDA464;
+    --corForte: #70613B;
+    --corContraste: #706B5D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corFraca);
+    font-size: 1em;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: var(--corContraste);
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 10px;
+}
+
+/*Conteúdo*/
+main {
+    background-color: var(--corPadrao);
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+div#botoes > label {
+    font-weight: bold;
+}
+
+div#config > input#isize {
+    padding: 3px;
+    width: 50px;
+}
+
+div#form > label {
+    font-size: 1.1em;
+}
+
+textarea {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    padding: 10px;
+}
+
+footer > p > span {
+    font-style: italic;
+    cursor: pointer;
+}
