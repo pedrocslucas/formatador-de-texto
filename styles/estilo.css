@@ -27,7 +27,23 @@ header {
 }
 
 header > h1 {
+    padding: 20px;
+}
+
+header > nav {
+    padding-bottom: 10px;
+}
+
+header > nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
     padding: 10px;
+}
+
+header > nav > a:hover {
+    color: #5c9ec7;
+    text-decoration: underline;
 }
 
 /*Conteúdo*/
@@ -41,12 +57,14 @@ main {
 }
 
 label {
+    font-size: 1.1em;
     display: block;
     margin-top: 20px;
 }
 
-div#botoes > label {
-    font-weight: bold;
+div#config {
+    border: 1px solid black;
+    padding: 8px;
 }
 
 div#config > input#isize {
@@ -54,20 +72,57 @@ div#config > input#isize {
     width: 50px;
 }
 
+div.estilo-fonte label{
+    display: inline;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+div#botoes > label {
+    font-weight: bold;
+}
+
+div#botoes > input {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #3f3f3f;
+    color: var(--corFraca);
+}
+
+div#botoes > input:hover {
+    transition: .3s;
+    background-color: #87cefa;
+    color: black;
+}
+
 div#form > label {
     font-size: 1.1em;
 }
 
 textarea {
-    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: black;
     padding: 5px;
 }
 
 /*Rodapé*/
 footer {
-    background-color: #3f3f3f;
+    background-color: #3f3f4f;
     color: white;
     text-align: center;
+}
+
+.social-list {
+    padding: 10px;
+    list-style: none;
+}
+
+.rede {
+    display: inline;
+    margin: 20px;
 }
 
 footer > p {

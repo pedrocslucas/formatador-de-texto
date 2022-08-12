@@ -10,14 +10,23 @@
 <body>
     <header>
         <h1>Formatador de Textos</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Editar</a>
+            <a href="#">Ajuda</a>
+            <a href="#">Sobre</a>
+        </nav>
     </header>
+
     <main>
         <h2>Configurações:</h2>
         <div id="config">
             <label for="iformat">Formato: </label>
             <select name="format" id="iformat">
-                <option value="capitalize">Capitalize</option>
+                <option value="default">Padrão</option>
+                <option value="capitalize">Título</option>
                 <option value="uppercase">Maiúsculas</option>
+                <option value="lowercase">Minúsculas</option>
             </select>
 
             <label for="itype">Tipo: </label>
@@ -32,18 +41,53 @@
             <label for="isize">Tamanho: </label>
             <input type="number" name="isize" id="isize" min="8" max="150" value="16">
 
+            <label for="">Estilo:</label>
+            <div class="estilo-fonte">
+            <input type="radio" name="style" id="inormal" checked>
+            <label for="inormal">Normal</label>
+            <input type="radio" name="style" id="iunderline">
+            <label for="iunderline">Underline</label>
+            <input type="radio" name="style" id="iitalic">
+            <label for="iitalic">Itálico</label>
+            </div>
+
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="icor">
         </div>
-        <div id="botoes">
 
+        <div id="botoes">
+            <input type="button" value="Restaurar" onclick="restaurar()">
+            <input type="button" value="Formatar" onclick="formatar()">
         </div>
+        
         <div id="form">
             <label for="itexto">Caixa de Texto: </label>
             <textarea name="texto" id="itexto" cols="40" rows="10" placeholder="Digite ou cole seu texto aqui..."></textarea>
         </div>
     </main>
     <footer>
+        <ul class="social-list">
+            <li class="rede">
+                <a href="https://www.linkedin.com/in/pedrocslucas/">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+            </li>
+            <li class="rede">
+                <a href="https://www.instagram.com/pedrocslucas/">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li class="rede">
+                <a href="https://github.com/pedrocslucas">
+                    <img src="images/github.svg" alt="Github">
+                </a>
+            </li>
+            <li class="rede">
+                <a href="mailto:lucassilvach33r@gmail.com">
+                    <img src="images/gmail.svg" alt="Gmail">
+                </a>
+            </li>
+        </ul>
         <p>Site criado por <span>Pedro Lucas</span> estudante de Sistemas de Informação.</p>
     </footer>
 
