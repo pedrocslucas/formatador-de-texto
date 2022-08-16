@@ -21,35 +21,36 @@
     <main>
         <h2>Configurações:</h2>
         <div id="config">
-            <label for="iformat">Formato: </label>
-            <select name="format" id="iformat">
-                <option value="default">Padrão</option>
-                <option value="capitalize">Título</option>
-                <option value="uppercase">Maiúsculas</option>
-                <option value="lowercase">Minúsculas</option>
-            </select>
+            <section class="adds-configs">
+                <label for="iformat">Formato: </label>
+                <select name="format" id="iformat">
+                    <option value="none">Padrão</option>
+                    <option value="capitalize">Título</option>
+                    <option value="uppercase">Maiúsculas</option>
+                    <option value="lowercase">Minúsculas</option>
+                </select>
+
+                <label for="italic">Itálico:</label>
+                <input type="checkbox" name="italic" id="italic" value="italic">
+
+                <label for="underline">Underline: </label>
+                <input type="checkbox" name="underline" id="underline" value="underline">
+
+                <label for="bold">Negrito:</label>
+                <input type="checkbox" name="bold" id="bold" value="bold">
+            </section>
 
             <label for="itype">Tipo: </label>
             <select name="type" id="itype">
-                <option value="times">Serif</option>
-                <option value="arial">Sans-serif</option>
-                <option value="courier">Monospace</option>
-                <option value="manuscrito">Handwriting</option>
-                <option value="display">Display</option>
+                <option value="serif">Serif</option>
+                <option value="sans-serif">Sans-serif</option>
+                <option value="monospace">Monospace</option>
+                <option value="cursive">Handwriting</option>
+                <option value="fantasy">Display</option>
             </select>
 
             <label for="isize">Tamanho: </label>
             <input type="number" name="isize" id="isize" min="8" max="150" value="16">
-
-            <label for="">Estilo:</label>
-            <div class="estilo-fonte">
-            <input type="radio" name="style" id="inormal" checked>
-            <label for="inormal">Normal</label>
-            <input type="radio" name="style" id="iunderline">
-            <label for="iunderline">Underline</label>
-            <input type="radio" name="style" id="iitalic">
-            <label for="iitalic">Itálico</label>
-            </div>
 
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="icor">
@@ -68,17 +69,17 @@
     <footer>
         <ul class="social-list">
             <li class="rede">
-                <a href="https://www.linkedin.com/in/pedrocslucas/">
+                <a target="_blank" href="https://www.linkedin.com/in/pedrocslucas/">
                     <img src="images/linkedin.svg" alt="LinkedIn">
                 </a>
             </li>
             <li class="rede">
-                <a href="https://www.instagram.com/pedrocslucas/">
+                <a target="_blank" href="https://www.instagram.com/pedrocslucas/">
                     <img src="images/instagram.svg" alt="Instagram">
                 </a>
             </li>
             <li class="rede">
-                <a href="https://github.com/pedrocslucas">
+                <a target="_blank" href="https://github.com/pedrocslucas">
                     <img src="images/github.svg" alt="Github">
                 </a>
             </li>
