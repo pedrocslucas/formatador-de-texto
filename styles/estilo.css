@@ -99,6 +99,9 @@ textarea {
     resize: vertical;
     width: 96%;
     height: 200px;
+
+    font-family: serif;
+    font-size: 16px;
 }
 
 #iformat, #itype, #isize {

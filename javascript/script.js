@@ -11,7 +11,13 @@ let font_decoration = document.getElementById('underline');
 let font_weight = document.getElementById('bold');
 
 function restaurar(){
-    
+    font_format.selectedIndex = 0;
+    font_style.checked = false;
+    font_decoration.checked = false;
+    font_weight.checked = false;
+    font_type.selectedIndex = 0;
+    font_size.value = 16;
+    font_color.value = '#000';
 }
 
 function formatar(){
