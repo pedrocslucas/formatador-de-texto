@@ -11,7 +11,7 @@ let font_decoration = document.getElementById('underline');
 let font_weight = document.getElementById('bold');
 
 function restaurar(){
-
+    
 }
 
 function formatar(){
