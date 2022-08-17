@@ -107,6 +107,16 @@ textarea {
     height: 200px;
 }
 
+#iformat, #itype, #isize {
+    background-color: white;
+    width: 20%;
+    padding: 5px;
+}
+
+#isize {
+    border: 1px solid black;
+    border-style: outset;
+}
 
 /*Rodapé*/
 footer {
