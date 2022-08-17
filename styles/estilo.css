@@ -109,7 +109,7 @@ textarea {
 
 #iformat, #itype, #isize {
     background-color: white;
-    width: 25%;
+    width: 28%;
     padding: 5px;
 }
 
@@ -124,12 +124,12 @@ textarea {
 
 .adds-configs label {
     margin-top: 0;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 #italic, #underline, #bold {
     margin: 0px;
-    margin-left: 25px;
+    margin-left: 15px;
     width: 16px;
     height: 16px;
 }
