@@ -100,9 +100,10 @@ div#form > label {
 }
 
 textarea {
+    background-color: white;
     padding: 8px;
     resize: vertical;
-    width: 400px;
+    width: 97%;
     height: 200px;
 }
 
