@@ -21,23 +21,23 @@
     <main>
         <h2>Configurações:</h2>
         <div id="config">
+            <label for="iformat">Formato: </label>
+            <select name="format" id="iformat">
+                <option value="none">Padrão</option>
+                <option value="capitalize">Título</option>
+                <option value="uppercase">Maiúsculas</option>
+                <option value="lowercase">Minúsculas</option>
+            </select>
+
             <section class="adds-configs">
-                <label for="iformat">Formato: </label>
-                <select name="format" id="iformat">
-                    <option value="none">Padrão</option>
-                    <option value="capitalize">Título</option>
-                    <option value="uppercase">Maiúsculas</option>
-                    <option value="lowercase">Minúsculas</option>
-                </select>
-
-                <label for="italic">Itálico:</label>
                 <input type="checkbox" name="italic" id="italic" value="italic">
+                <label for="italic">itálico</label>
 
-                <label for="underline">Underline: </label>
                 <input type="checkbox" name="underline" id="underline" value="underline">
+                <label for="underline">underline</label>
 
-                <label for="bold">Negrito:</label>
                 <input type="checkbox" name="bold" id="bold" value="bold">
+                <label for="bold">negrito</label>
             </section>
 
             <label for="itype">Tipo: </label>

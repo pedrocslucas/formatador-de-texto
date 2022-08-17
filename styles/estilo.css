@@ -103,19 +103,35 @@ textarea {
     background-color: white;
     padding: 8px;
     resize: vertical;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
 #iformat, #itype, #isize {
     background-color: white;
-    width: 20%;
+    width: 25%;
     padding: 5px;
 }
 
 #isize {
     border: 1px solid black;
     border-style: outset;
+}
+
+.adds-configs {
+    display: inline-flex;
+}
+
+.adds-configs label {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+#italic, #underline, #bold {
+    margin: 0px;
+    margin-left: 25px;
+    width: 16px;
+    height: 16px;
 }
 
 /*Rodapé*/
