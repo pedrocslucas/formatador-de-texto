@@ -129,9 +129,8 @@ textarea {
 
 #italic, #underline, #bold {
     margin: 0px;
-    margin-left: 15px;
-    width: 16px;
-    height: 16px;
+    margin-left: 12px;
+    width: 20px;
 }
 
 /*Rodapé*/
